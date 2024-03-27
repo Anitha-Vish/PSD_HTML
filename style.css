@@ -1,21 +1,18 @@
-*
-{
-
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* Header */
+/* ------HEADER START ------*/
 
 .header {
     min-height: 100vh;
     width: 100%;
     background-image: url(design-assets/bgk-header.png);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     position: relative;
-}   
+}  
 
 nav {
     display: flex;
@@ -26,21 +23,21 @@ nav {
 
 .logo {
     display: flex;
-    padding: 10px 20px;
-    justify-content: space-between;
-    gap: 10px ;
+    padding: 10px;
     align-items: center;
 }
 
 .logo p {
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
-    color: rgb(111, 154, 170);
-    font-weight: 0;
+    color: #2985aa;
+    font-weight: lighter;
+    margin-left: 10px;
 }
 
 .nav-links{
     text-align: right;
+    align-items: center;
 }
 
 .nav-links ul li{
@@ -48,7 +45,6 @@ nav {
     display: inline-block;
     padding: 8px 10px;
     position: relative;
-    gap: 10px;
 }
 
 .nav-links ul li a {
@@ -57,10 +53,16 @@ nav {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
+    position: relative;
 }
 
+.nav-links ul li a:hover{
+    background-color: transparent;
+    color: #3abcef;
+}
+/* ------HERO START ------*/
 .hero {
-    width: 90%;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,9 +72,10 @@ nav {
 }
 
 .hero h1 {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 37px;
-}
+        font-family: "Playfair Display", serif;
+        font-size: 34px;
+        }
+
 
 .hero p{
     font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +89,7 @@ nav {
     width: 50px;
     height: 0.5px;
     margin: 25px auto;
-    background-color:rgb(145, 204, 226); 
+    background-color:#3abcef;
     display: inline-block;
 
 }
@@ -96,7 +99,7 @@ nav {
     margin-top: 40px;
     display: inline-block;
     text-decoration: none;
-    color: rgb(58, 188, 239); 
+    color: #3abcef; 
     border: 1px solid;
     padding: 12px 14px;
     position: relative;
@@ -105,12 +108,47 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
+/* ------OUR STORY MAIN START ------*/
+
+.our-story {
+    width: 100;
+    margin: 50px auto;
+    background-color: white;;
+}
 
 
+.main {
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 250px;
+}
 
+.main img{
+    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
 
-body
-{
-font-family: Arial, Helvetica, sans-serif;
+.story {
+    width: 50%;
+    padding-bottom: 20PX
+}
+
+.story h1 {
+    Font-family: "Playfair Display", serif;
+    color: #646060;
+    font-size: 22PX;
+    padding-bottom: 20PX;
 
 }
+.story p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #9a9191;
+}  
+
+/* ------OUR STORY MAIN END ------*/
