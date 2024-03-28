@@ -255,8 +255,217 @@ nav {
  
   text-align: center;
     padding: 0px;
+}
+
+    /* Rabia */
+
+.video-container {
+    max-width: 1920px;
+    margin: 0 auto;
     position: relative;
+    text-align: center;
+}
+
+.thumbnail-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: url('design-assets/svg/play.svg') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.thumbnail-title {
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%; 
+}
+
+.expertise-container {
+    text-align: center;
+    padding: 50px 200px 50px 200px;
+}
+
+.expertise-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px, 10px;
+    color: #353535;
+}
+
+.expertise-p {
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: #353535;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100%;
+}
 
 
+.expertise-icon {
+    flex: 1 1 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expertise-icon img {
+    max-width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px ; 
+}
+
+.expertise-icon h3 {
+    font-size: 0.9em;
+    padding: 20px, 20px; 
+    color: #141414;
+    margin-top: 5px;
+}
+
+.expertise-icon p {
+    font-size: 0.8em;
+    color: #555; 
+    margin: 0; 
+    padding: 20px 20px;
+}
+
+.background-photo-section {
+    background-image: url('design-assets/bgk-header.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 180px;
+    text-align: center;
+    color: #fff;
+    height: auto;
+}
+
+.section-content {
+    max-width: 1920px;
+    padding: 30px 50px 50px 50px;
+}
+.section-content h1 {
+    font-size: large;
+}
+
+.section-content p {
+    padding-top: 10px;
+}
+
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    padding-top: 50px;
+}
+
+.container-box {
+    border: 1px solid #fff;
+    position: relative; 
+    overflow: hidden; 
+    flex: 0 0 calc(25% - 10px);
+    max-width: calc(25% - 10px); 
+    max-height: 160px;
 
 }
+
+.container-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%; 
+    background-color: #fff;
+
+}
+
+.inner-box {
+    margin-top: 65px;
+    padding-top: 20px;
+    color: #ffffff;
+    width: auto;
+}
+
+.inner-box h4 {
+    font-size: small;
+    font-weight: 500;
+    padding-top: 30px; 
+}
+
+.inner-box p {
+    font-size:x-small;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    margin-bottom: 20px; 
+    font-size: 18px; 
+}
+
+
+.button-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button-container button {
+    padding: 10px 20px; 
+    border: 1px solid aqua;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    background-color: transparent; 
+    color: aqua; 
+}
+
+.button-container button:hover {
+    background-color: aqua; 
+    color: white; 
+}
+
+@media screen and (max-width: 768px) {
+    .paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .button-container button {
+        padding: 8px 16px;
+    }
+
+}
+
+ /* Rabia */
