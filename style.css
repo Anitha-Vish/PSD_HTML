@@ -12,3 +12,104 @@ body
 font-family: Arial, Helvetica, sans-serif;
 
 }
+
+#head
+
+{
+    margin-left: 50px;
+}
+#head1
+
+{
+    margin-left: 10px;
+
+   
+}
+
+
+.contact
+
+{
+
+  background-color:white;
+  
+  display: flex;
+  justify-content: left;
+
+
+}
+
+.contact1
+{
+  
+  margin: 80px;
+  width: 30%;
+}
+
+.contact2
+{
+
+  margin: 80px;
+  width: 50%;
+  border: 30px;
+}
+
+#tx
+
+{           width: 300px;
+            height: 40px;
+            padding: 4px;
+            border: 1px solid #ccc;
+           
+            font-size: 10px;
+            margin-left: 50px;
+}
+
+#message_tx
+
+{
+   width: 300px;
+   height: 100px;
+    margin-left: 50px;
+    font-size: 10px;
+}
+
+.submit_button
+
+{
+
+            background-color:white;
+            height: 20px;
+            width: 90px;
+            border:rgb(29, 122, 125);
+            border :solid;
+            color: rgb(29, 122, 125);
+            padding: 10px 12px;
+            text-align: center;
+            display: block;
+            font-size: 10px;
+            margin: 4px 2px;
+            cursor:pointer;
+            border-radius: 2px;
+             margin-left: 50px;
+}
+
+.logos
+{
+            height: 20px;
+            width: 300px;
+            
+  
+}
+
+.footer1
+{
+  color:white;
+ 
+  text-align: center;
+    padding: 0px;
+    position: relative;
+
+
+
+}
