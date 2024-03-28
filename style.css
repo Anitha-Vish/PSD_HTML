@@ -12,6 +12,8 @@ body
 font-family: Arial, Helvetica, sans-serif;
 }
 
+    /* Rabia */
+
 .video-container {
     max-width: 1920px;
     margin: 0 auto;
@@ -317,7 +319,6 @@ img {
   text-align: center;
     padding: 0px;
     position: relative;
-
-
-
 }
+
+ /* Rabia */
