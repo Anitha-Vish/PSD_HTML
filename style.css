@@ -178,7 +178,7 @@ nav {
   background-color:white;
   display: flex;
   justify-content: left;
-
+  height: 250px;
 
 }
 
@@ -194,31 +194,36 @@ nav {
 
   margin: 80px;
   width: 50%; 
-  width: 50%;
+
   border: 30px;
   padding: 10px 12px 12px 12px;
 }
 
 #tx
 
-{           width: 300px;
-            height: 40px;
-            padding: 4px;
-            border: 1px solid #ccc;
-           
-            font-size: 10px;
-            margin-left: 50px;
+{           
+    width: 300px;
+    height: 40px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    margin-left: 50px;
 }
 
 #message_tx
 
 {
-   width: 300px;
-   height: 100px;
+    width: 300px;
+    height: 100px;
     margin-left: 50px;
     font-size: 10px;
 }
 
+#subscribe_tx
+{
+    width: 120px;
+    height: 30px;
+}
 .submit_button
 
 {
@@ -245,20 +250,65 @@ nav {
             width: 300px;
             padding: 20px;
            
-           
- 
 }
 
 /* Contact End */
 
-/* Footer Start */
-.footer1
-{
-  color:white;
+/* Footer start */
+
+.background-photo-section1
+ {
+    background-image: url('design-assets/bgk-footer.png');
+    background-size: cover;
+    background-position: center;
  
-  text-align: center;
-    padding: 0px;
+    color: #fff;
+    height: 300px;
 }
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 200px;
+   justify-content:center;
+}
+
+.class_ul
+{
+    list-style:none;
+}
+.row
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;  
+}
+
+.footer-col1 
+{
+   
+   flex: 1;
+   text-align: left;
+
+}
+
+
+.footer-col2
+{
+    flex: 1;
+   text-align: center;
+}
+
+.footer-col3
+{
+  flex: 1;
+   text-align: right;
+}
+
+/*  Footer End */
+
 
     /* Rabia */
 
@@ -291,7 +341,8 @@ img {
     background-size: contain;
     cursor: pointer;
 }
-.thumbnail-title {
+.thumbnail-title 
+{
     color: #fff;
     font-size: 1.2em;
     margin-top: 10px;
