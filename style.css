@@ -176,7 +176,6 @@ nav {
 {
 
   background-color:white;
-  
   display: flex;
   justify-content: left;
 
@@ -250,17 +249,9 @@ nav {
  
 }
 
-<<<<<<< HEAD
-.logo1
-
-{
-
-}
-=======
 /* Contact End */
 
 /* Footer Start */
->>>>>>> 745b6c898694b96190173585304b34cea5f1dd4d
 .footer1
 {
   color:white;
@@ -480,4 +471,3 @@ img {
 
 }
 
- /* Rabia */
