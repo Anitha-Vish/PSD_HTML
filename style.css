@@ -161,6 +161,7 @@ nav {
 
 {
     margin-left: 50px;
+   
 }
 #head1
 
@@ -176,48 +177,67 @@ nav {
 {
 
   background-color:white;
-  
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  height: 480px;
 
-
+  
 }
 
 .contact1
 {
   
   margin: 80px;
-  width: 30%;
+  
 }
 
 .contact2
 {
 
   margin: 80px;
-  width: 50%;
-  border: 30px;
+  
 }
 
 #tx
 
-{           width: 300px;
-            height: 40px;
-            padding: 4px;
-            border: 1px solid #ccc;
-           
-            font-size: 10px;
-            margin-left: 50px;
+{           
+    width: 300px;
+    height: 40px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    margin-left: 50px;
 }
 
 #message_tx
 
 {
-   width: 300px;
-   height: 100px;
+    width: 300px;
+    height: 100px;
     margin-left: 50px;
     font-size: 10px;
 }
 
+#subscribe_tx
+{
+    width: 120px;
+    height: 30px;
+   
+} 
+
+#footer_tx
+
+{
+    width: 150px;
+    height: 40px;
+    margin-left: -5px;
+    font-size: 10px;
+    color: white;
+    background-color:transparent; 
+    border-style: solid;
+    
+   
+}
 .submit_button
 
 {
@@ -240,22 +260,164 @@ nav {
 
 .logos
 {
-            height: 20px;
-            width: 300px;
+            display:flex;
+            width: 400px;
+           
             
-  
+           
+}
+
+.logo1
+
+{
+  width: 150px;
+}
+
+.logo2
+
+{
+    width: 150px; 
 }
 
 /* Contact End */
 
-/* Footer Start */
-.footer1
-{
-  color:white;
- 
-  text-align: center;
-    padding: 0px;
+/* Footer start */
+
+.background-photo-section1
+ {
+    background-image: url('design-assets/bgk-footer.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 300px;
 }
+
+.container
+{
+  display: flex;
+  margin: 10px;
+  padding:30px;
+  justify-content:center; 
+}
+
+.class_ul
+{
+    list-style:none;
+}
+
+
+.footer-col1 
+{
+   
+ justify-content:space-around;
+ width: 240px;
+}
+ .class_span
+ {
+   width: 160px;
+  display: inline-block;
+  font-size:small;
+}
+
+.class_span1
+
+{
+    display: inline-block;   
+}
+.foot-col1-head
+
+{
+    display:flex;
+     font-family: "Montserrat", sans-serif;
+       color: #2985aa;
+    font-weight: lighter;
+    font-size: smaller;
+    
+} 
+.footer-col2
+{
+    
+   padding-left:100px;
+} 
+
+.foot-col2-para1
+
+{
+  display:flex;
+   
+}
+
+.tel
+{
+    font-size:smaller;
+}
+.foot-col2-para2
+
+
+{
+  display:flex;
+   object-fit: cover;
+
+}
+
+.foot-col2-para3
+
+{
+   display:flex;
+ 
+   
+}
+
+.arrow_icon
+
+{
+    background-color:#9a9191;
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+}
+#studio
+
+{
+  font-size:x-small;   
+}
+.footer-col3
+{
+   
+   padding-left:140px;
+} 
+
+.footer_icon
+{
+    display:flex;
+    
+}
+
+.Footer_down
+{
+    display: flex;
+    color: white;
+    font-size:x-small;
+    margin-left: -22px;
+}
+
+#one
+{
+   margin-left: 10%;
+   padding-right:5px;
+   
+   width: 100px;
+   text-wrap:nowrap;
+}
+
+#two
+{
+    margin-right: 10%;
+    padding-left: 10%;
+} 
+
+/*  Footer End */
+
 
     /* Rabia */
 
@@ -288,7 +450,10 @@ img {
     background-size: contain;
     cursor: pointer;
 }
-.thumbnail-title {
+
+
+.thumbnail-title 
+{
     color: #fff;
     font-size: 1.2em;
     margin-top: 10px;
@@ -468,4 +633,3 @@ img {
 
 }
 
- /* Rabia */
