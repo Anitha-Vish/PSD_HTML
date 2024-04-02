@@ -356,6 +356,7 @@ nav {
 
 {
   display:flex;
+   object-fit: cover;
 
 }
 
@@ -371,8 +372,9 @@ nav {
 
 {
     background-color:#9a9191;
-    width:30px;
-    height: 40px;;
+    width:40px;
+    height: 40px;
+    object-fit: cover;
 }
 #studio
 
