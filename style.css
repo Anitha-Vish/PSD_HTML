@@ -398,7 +398,7 @@ nav {
     display: flex;
     color: white;
     font-size:x-small;
-   
+    margin-left: -22px;
 }
 
 #one
