@@ -187,15 +187,20 @@ nav {
 .contact1
 {
   
-  margin: 80px;
+  /* margin: 180px; */
+  margin-left: 180px;
+  margin-right:180px ;
+  margin-top: 50px;
   
 }
 
 .contact2
 {
-
-  margin: 80px;
-  
+/* 
+  margin: 180px; */
+   margin-left: 180px;
+   margin-right:180px ;
+   margin-top: 50px;
 }
 
 #tx
@@ -295,9 +300,14 @@ nav {
 .container
 {
   display: flex;
-  margin: 10px;
-  padding:30px;
+   /* margin: 10px;  */
+   margin-left: -70px;
+   margin-right: -70px;
+ 
+   /* margin-top: 100px; */
+   padding:43px; 
   justify-content:center; 
+  width:100%;
 }
 
 .class_ul
@@ -311,6 +321,8 @@ nav {
    
  justify-content:space-around;
  width: 240px;
+ 
+
 }
  .class_span
  {
